@@ -1,0 +1,3 @@
+De todas formas el STS no viene con el plugin DTP (Database Tools Platform), tendrías que instalarlo.
+
+Puede instalarlos desde el menú 'Help' -> 'Install New Software'. Agregas el repositorio principal del eclipse, si estás usando la última versión del STS sería el eclipse 2018-12 (https://download.eclipse.org/releases/2018-12), selecciónelo en 'work with' y marcas el componente Database Development.
