@@ -1,4 +1,4 @@
-package com.maty.entities;
+package com.maty.models.entities;
 
 import java.io.Serializable;
 import java.util.Date;
