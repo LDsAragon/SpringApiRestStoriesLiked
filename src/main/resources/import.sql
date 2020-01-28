@@ -1,0 +1,9 @@
+INSERT INTO ds_cliente (nombre, apellido, email, initialdate ) values ('DoomSlayer', 'ToMadToDie', 'DoomSlayer@ToMadToDie.com', null);
+INSERT INTO ds_cliente (nombre, apellido, email, initialdate ) values ('IMP', 'IMP', 'IMP@DestinedToDie.com', null);
+INSERT INTO ds_cliente (nombre, apellido, email, initialdate ) values ('Cacodemon', 'Cacodemon', 'Cacodemon@DestinedToDie.com', null);
+INSERT INTO ds_cliente (nombre, apellido, email, initialdate ) values ('Samuel', 'Hayden', 'SamuelHayden@banishingIntoDamnation.com', null);
+INSERT INTO ds_cliente (nombre, apellido, email, initialdate ) values ('Olivia', 'Pierce', 'OliviaPierce@banishingIntoDamnation.com', null);
+INSERT INTO ds_cliente (nombre, apellido, email, initialdate ) values ('Dr', 'Darling', 'DrDarling@banishingIntoDamnation.com', null);
+INSERT INTO ds_cliente (nombre, apellido, email, initialdate ) values ('Jesse', 'Faden', 'JesseFaden@banishingIntoDamnation.com', null);
+INSERT INTO ds_cliente (nombre, apellido, email, initialdate ) values ('The', 'Board', 'TheBoard@TakingControl.com', null); 
+INSERT INTO ds_cliente (nombre, apellido, email, initialdate ) values ('Alan', 'Wake', 'AlanWake@WritingAStory.com', null);
