@@ -1,7 +1,6 @@
 package com.maty.models.service;
 
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -25,21 +24,21 @@ public class ClienteServiceImpl implements IClienteService {
 	}
 
 	@Override
-	@Transactional(readOnly = true)
+	@Transactional
 	public Cliente save(Cliente cliente) {
 		return clienteDao.save(cliente);
 	}
 
 	@Override
-	@Transactional
-	public Cliente findById(Long clienteId) {
-		return clienteDao.findById(clienteId).orElse(null);
+	@Transactional(readOnly = true)
+	public Cliente findById(Long Id) {
+		return clienteDao.findById(Id).orElse(null);
 	}
 
 	@Override
 	@Transactional
-	public void delete(Cliente cliente) {
-		clienteDao.delete(cliente);
+	public void deleteById(Long Id) {
+		clienteDao.deleteById(Id);
 	}
 
 }
