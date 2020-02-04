@@ -56,27 +56,5 @@ public class ClientePojo {
 		this.initialDate = initialDate;
 	}
 	
-//	public ClientePojo() {
-//	}
-//
-//	public ClientePojo( String nombre, String apellido, String email) {
-//		super();
-//		this.nombre = nombre;
-//		this.apellido = apellido;
-//		this.email = email;
-//		this.initialDate = new Date() ;
-//	}
-//	
-//	public ClientePojo(Cliente cliente) {
-//		super();
-//		this.nombre = cliente.getNombre();
-//		this.apellido = cliente.getApellido();
-//		this.email = cliente.getEmail();
-//		this.initialDate = new Date() ;
-//	}
-	
-	
-	
-	
 	
 }
