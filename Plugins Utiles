@@ -1,0 +1,12 @@
+El plugin DTP (Database Tools Platform), 
+
+Para instalarlos desde el menú 'Help' -> 'Install New Software'.
+Agregas el repositorio principal del eclipse, si estás usando la última versión del STS sería el eclipse 2018-12
+
+ (https://download.eclipse.org/releases/2018-12)
+ 
+Selecciónelo en 'work with' y
+Marcas el componente Database Development.
+
+=======================================================================================================================
+
