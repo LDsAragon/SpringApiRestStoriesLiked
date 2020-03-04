@@ -47,7 +47,6 @@ public class ClienteRestController {
 
 	@GetMapping("/clientes/{Id}")
 	public Cliente show(@PathVariable Long Id) {
-//		logger.info("Buscando el cliente con Id:" + Id);
 		logger.info("Buscando el cliente con Id: {}", Id);
 		return clienteService.findById(Id);
 	}
@@ -55,7 +54,6 @@ public class ClienteRestController {
 	@PostMapping("/clientes")
 	@ResponseStatus(HttpStatus.CREATED)
 	public Cliente create(@RequestBody Cliente cliente) {
-//		logger.info("Guardando el cliente con Id:" + cliente.getId());
 		logger.info("Guardando el cliente con Id: {}", cliente.getId());
 		return clienteService.save(cliente);
 	}
@@ -65,7 +63,6 @@ public class ClienteRestController {
 	public Cliente update(@RequestBody Cliente cliente, @PathVariable Long Id) {
 		Cliente clienteActual = clienteService.findById(Id);
 
-//		logger.info("Actualizando el cliente con Id:" + clienteActual.getId());
 		logger.info("Actualizando el cliente con Id: {}", clienteActual.getId());
 
 		clienteActual.setNombre(cliente.getNombre());
@@ -79,7 +76,6 @@ public class ClienteRestController {
 	@DeleteMapping("/clientes/{Id}")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	public void delete(@PathVariable Long Id) {
-//		logger.info("Eliminando el cliente con Id:" + Id);
 		logger.info("Eliminando el cliente con Id: {}", Id);
 		clienteService.deleteById(Id);
 	}
